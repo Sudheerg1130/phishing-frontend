@@ -18,7 +18,7 @@ function Home() {
     try {
       // IMPORTANT: If running locally, use "http://127.0.0.1:5000/analyze"
       // If deployed, use your Render/Railway URL
-      const res = await axios.post("http://127.0.0.1:5000/analyze", { url });
+      const res = await axios.post("hhttps://phishing-backend-1-khmp.onrender.com/analyze", { url });
       setResult(res.data);
 
       // --- AUTO-UPDATE HISTORY ---
